@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_view"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtLoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_header_dialog"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:padding="11dp"
+        android:text="Lỗi phát sinh"
+        android:textSize="22dp" />
+
+    <EditText
+        android:id="@+id/edtFeedBack"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:hint="   Nhập thông tin   ..."
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_view_green_button"
+            android:text="Gửi"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnHuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_view_green_button"
+            android:text="Hủy"
+            android:textColor="#A04D4D"
+            android:backgroundTint="@color/white"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

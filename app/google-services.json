@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "48238857238",
+    "firebase_url": "https://onclinic-180ee-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "onclinic-180ee",
+    "storage_bucket": "onclinic-180ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48238857238:android:ebf068a6807b6d1af27937",
+        "android_client_info": {
+          "package_name": "com.example.onclinic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48238857238-sdfr3d65gn421crkhqbgme3vn21lia8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsovS8wBe6O3dctzWRx0vHyZ-o_lcChWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48238857238-sdfr3d65gn421crkhqbgme3vn21lia8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

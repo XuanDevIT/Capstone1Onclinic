@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout_itemdonthuoc"
+    android:stretchColumns="1,2,3,4,5,6"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtSTT"
+            android:gravity="center"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_column="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1" />
+
+        <TextView
+            android:id="@+id/txtTenThuocItem"
+            android:gravity="center"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_column="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Panadol" />
+
+        <TextView
+            android:id="@+id/txtSoLuongItem"
+            android:gravity="center"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_column="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30" />
+
+        <TextView
+            android:id="@+id/txtDonViTinhItem"
+            android:gravity="center"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_column="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="viên" />
+
+        <TextView
+            android:id="@+id/txtLieuDungItem"
+            android:gravity="center"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_column="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 viên/ngày" />
+
+        <TextView
+            android:id="@+id/txtDonGiaItem"
+            android:gravity="center"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_column="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20000 VND" />
+
+    </TableRow>
+
+</TableLayout>

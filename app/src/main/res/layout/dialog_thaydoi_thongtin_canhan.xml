@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:background="@drawable/custom_view"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="11dp"
+        android:gravity="center"
+        android:text="Thay đổi thông tin cá nhân: "
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/imgAnhCaNhan"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_profile"/>
+
+    <TextView
+        android:id="@+id/txtChonAnh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_button"
+        android:layout_gravity="center"
+        android:text="Đổi ảnh đại diện"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên đầy đủ: "
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/edt_update_ten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tên"
+        android:textSize="20sp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngày sinh: "
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/edt_update_ngaysinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1/1/2020"
+        android:textSize="20sp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Địa chỉ: "
+        android:textSize="17sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/edt_update_dia_chi_quan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="huyện"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/edt_update_dia_chi_tp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="thành phố"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thư điện tử: "
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/edt_update_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mail"
+        android:textSize="20sp"
+        android:enabled="false"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCapNhatTTCN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_view_green_button"
+            android:text="Cập nhật"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnHuyTTCN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_view_green_button"
+            android:text="Hủy"
+            android:backgroundTint="#EFE6E6"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

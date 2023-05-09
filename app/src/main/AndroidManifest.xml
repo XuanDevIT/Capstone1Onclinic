@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.onclinic">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.example.local_data.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".DanhSachPhongKham"
+            android:exported="true" />
+        <activity
+            android:name=".VideoCall"
+            android:exported="true" />
+        <activity
+            android:name=".ChiTietLichSuBacSi"
+            android:exported="true" />
+        <activity
+            android:name=".LichSuKhamBacSi"
+            android:exported="true" />
+        <activity
+            android:name=".DonThuocBacSi"
+            android:exported="true" />
+        <activity
+            android:name=".LichKhamBenhNhan"
+            android:exported="true"
+            android:parentActivityName=".TrangChuBenhNhan" />
+        <activity
+            android:name=".KhamOnlineDemo"
+            android:exported="true" />
+        <activity
+            android:name=".NhapDonThuoc"
+            android:exported="false" />
+        <activity
+            android:name=".MyBaseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CapNhatSuatKham"
+            android:exported="true" />
+        <activity
+            android:name=".LichKhamBacSi"
+            android:exported="true"
+            android:parentActivityName=".TrangChuBacSi" />
+        <activity
+            android:name=".DatPhong2"
+            android:exported="false" />
+        <activity
+            android:name=".TaoPhongKham"
+            android:exported="true" />
+        <activity
+            android:name=".ChiTietLichSuBenhNhan"
+            android:exported="true" />
+        <activity
+            android:name=".LichSuKhamBenhNhan"
+            android:exported="true" />
+        <activity
+            android:name=".DatPhong"
+            android:exported="true" />
+        <activity
+            android:name=".LienHe"
+            android:exported="true"
+            android:label="Liên hệ chúng tôi" />
+        <activity
+            android:name=".TrangChuBacSi"
+            android:exported="true"
+            android:label="Trang chủ"
+            android:parentActivityName=".LoiChao"/>
+        <activity
+            android:name=".taikhoan.DangNhap"
+            android:exported="true" />
+        <activity
+            android:name=".taikhoan.DangKy"
+            android:exported="true" />
+        <activity
+            android:name=".taikhoan.QuenMatKhau"
+            android:exported="true" />
+        <activity
+            android:name=".ThongBaoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TrangCaNhan"
+            android:exported="true" />
+        <activity
+            android:name=".LoiChao"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TrangChuBenhNhan"
+            android:exported="true"
+            android:label="Trang chủ"
+            android:parentActivityName=".LoiChao"/>
+        <activity
+            android:name=".VietDanhGia"
+            android:exported="true" />
+        <activity
+            android:name=".ThongTinPhongKham"
+            android:exported="true" />
+        <activity
+            android:name=".ThongTinPhongKhamViewBenhNhan"
+            android:exported="true" />
+        <activity
+            android:name=".QuanLyPhongKham"
+            android:exported="true" />
+        <activity
+            android:name=".SuatKhamDaTao"
+            android:exported="true" />
+        <activity
+            android:name=".ViewDanhGiaBN"
+            android:exported="true" />
+        <activity
+            android:name=".ViewDanhGiaBS"
+            android:exported="true" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

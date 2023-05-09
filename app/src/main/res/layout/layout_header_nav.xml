@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#A1C4FD"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgLayoutNavBN"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ho_so_ca_nhan"
+        app:layout_constraintDimensionRatio="1:1"/>
+
+    <TextView
+        android:id="@+id/txtLayoutTenBN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên người dùng"
+        android:textColor="#FFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/imgLayoutNavBN" />
+
+    <TextView
+        android:id="@+id/txtLayoutEmailBN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Địa chỉ email"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/txtLayoutTenBN" />
+
+</LinearLayout>

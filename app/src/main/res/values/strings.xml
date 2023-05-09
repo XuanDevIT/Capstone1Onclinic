@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">OnClinic</string>
+    <string name="nav_trangchu">Trang chủ</string>
+    <string name="nav_thongbao">Thông báo</string>
+    <string name="nav_hoso">Tài khoản</string>
+    <string name="nav_thongtincanhan">Thông tin cá nhân</string>
+    <string name="nav_doimatkhau">Đổi mật khẩu</string>
+    <string name="nav_dangxuat">Đăng xuất</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="channel_name">Channel 1</string>
+    <string name="channel_description">This is Channel 1</string>
+    <string name="channel_name_2">Channel 2</string>
+    <string name="channel_description_2">This is Channel 2</string>
+    <string name="action_search">Search</string>
+    <string-array name="arrThanhPho">
+        <item>An Giang</item>
+        <item>Bà rịa – Vũng tàu</item>
+        <item>Bắc Giang</item>
+        <item>Bắc Kạn</item>
+        <item>Bạc Liêu</item>
+        <item>Bắc Ninh</item>
+        <item>Bến Tre</item>
+        <item>Bình Định</item>
+        <item>Bình Dương</item>
+        <item>Bình Phước</item>
+        <item>Bình Thuận</item>
+        <item>Cà Mau</item>
+        <item>Cần Thơ</item>
+        <item>Cao Bằng</item>
+        <item>Đà Nẵng</item>
+        <item>Đắk Lắk</item>
+        <item>Đắk Nông</item>
+        <item>Điện Biên</item>
+        <item>Đồng Nai</item>
+        <item>Đồng Tháp</item>
+        <item>Gia Lai</item>
+        <item>Hà Giang</item>
+        <item>Hà Nam</item>
+        <item>Hà Nội</item>
+        <item>Hà Tĩnh</item>
+        <item>Hải Dương</item>
+        <item>Hải Phòng</item>
+        <item>Hậu Giang</item>
+        <item>Hòa Bình</item>
+        <item>Hưng Yên</item>
+        <item>Khánh Hòa</item>
+        <item>Kiên Giang</item>
+        <item>Kon Tum</item>
+        <item>Lai Châu</item>
+        <item>Lâm Đồng</item>
+        <item>Lạng Sơn</item>
+        <item>Lào Cai</item>
+        <item>Long An</item>
+        <item>Nam Định</item>
+        <item>Nghệ An</item>
+        <item>Ninh Bình</item>
+        <item>Ninh Thuận</item>
+        <item>Phú Thọ</item>
+        <item>Phú Yên</item>
+        <item>Quảng Bình</item>
+        <item>Quảng Nam</item>
+        <item>Quảng Ngãi</item>
+        <item>Quảng Ninh</item>
+        <item>Quảng Trị</item>
+        <item>Sóc Trăng</item>
+        <item>Sơn La</item>
+        <item>Tây Ninh</item>
+        <item>Thái Bình</item>
+        <item>Thái Nguyên</item>
+        <item>Thanh Hóa</item>
+        <item>Thừa Thiên Huế</item>
+        <item>Tiền Giang</item>
+        <item>Hồ Chí Minh</item>
+        <item>Trà Vinh</item>
+        <item>Tuyên Quang</item>
+        <item>Vĩnh Long</item>
+        <item>Vĩnh Phúc</item>
+        <item>Yên Bái</item>
+    </string-array>
+    <string-array name="quanAnGiang">
+        <item>Huyện An Phú</item>
+        <item>Huyện Châu Phú</item>
+        <item>Huyện Châu Thành</item>
+        <item>Huyện Chợ Mới</item>
+        <item>Huyện Phú Tân</item>
+        <item>Huyện Thoại Sơn</item>
+        <item>Huyện Tịnh Biên</item>
+        <item>Huyện Tri Tôn</item>
+        <item>Thành phố Châu Đốc</item>
+        <item>Thành phố Long Xuyên</item>
+        <item>Thị xã Tân Châu</item>
+    </string-array>
+    <string-array name="quanDaNang">
+        <item>Huyện Hòa Vang</item>
+        <item>Huyện Hoàng Sa</item>
+        <item>Quận Cẩm Lệ</item>
+        <item>Quận Hải Châu</item>
+        <item>Quận Liên Chiểu</item>
+        <item>Quận Ngũ Hành Sơn</item>
+        <item>Quận Sơn Trà</item>
+        <item>Quận Thanh Khê</item>
+    </string-array>
+    <string-array name="quanBaRiaVungTau">
+        <item>Thành phố Hà Giang</item>
+        <item>Huyện Đồng Văn</item>
+        <item>Huyện Mèo Vạc</item>
+        <item>Huyện Yên Minh</item>
+        <item>Huyện Quản Bạ</item>
+        <item>Huyện Vị Xuyên</item>
+        <item>Huyện Bắc Mê</item>
+        <item>Huyện Hoàng Su Phì</item>
+        <item>Huyện Xín Mần</item>
+        <item>Huyện Bắc Quang</item>
+        <item>Huyện Quang Bình</item>
+    </string-array>
+    <string-array name="quanBacGiang">
+        <item>Thành phố Bắc Giang</item>
+        <item>Huyện Yên Thế</item>
+        <item>Huyện Tân Yên</item>
+        <item>Huyện Lạng Giang</item>
+        <item>Huyện Lục Nam</item>
+        <item>Huyện Lục Ngạn</item>
+        <item>Huyện Sơn Động</item>
+        <item>Huyện Yên Dũng</item>
+        <item>Huyện Việt Yên</item>
+        <item>Huyện Hiệp Hòa</item>
+    </string-array>
+    <string-array name="quanTTHue">
+        <item>Thành phố Huế</item>
+        <item>Huyện Phong Điền</item>
+        <item>Huyện Quảng Điền</item>
+        <item>Huyện Phú Vang</item>
+        <item>Thị xã Hương Thủy</item>
+        <item>Thị xã Hương Trà</item>
+        <item>Huyện A Lưới</item>
+        <item>Huyện Phú Lộc</item>
+        <item>Huyện Nam Đông</item>
+    </string-array>
+</resources>
